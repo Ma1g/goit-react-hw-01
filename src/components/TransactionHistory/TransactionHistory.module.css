@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+th,
+td {
+  width: 200px;
+  height: 40px;
+
+  border: 1px solid #ddd;
+}
