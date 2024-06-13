@@ -1,19 +1,42 @@
 .container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid #555;
+    color: #ddd;
+    background-color: #333;
 }
 
-.capitalize {
-  text-transform: capitalize;
+.headerTitle {
+    background-color: #444;
+    font-weight: bold;
+    color: #fff;
 }
 
-th,
-td {
-  width: 200px;
-  height: 40px;
+.title {
+    border: 1px solid #555;
+    padding: 12px;
+    text-transform: uppercase;
+}
 
-  border: 1px solid #ddd;
+.table {
+    border: 1px solid #555;
+}
+
+.tableItem {
+    border: 1px solid #555;
+    padding: 12px;
+    text-transform: capitalize;
+    color: #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #444;
+}
+
+tr:hover {
+    background-color: #555;
+    
 }
